@@ -2,7 +2,7 @@
 
 A simple, lightweight C-language web crawler designed for **educational and archival purposes**. It is distributed under the **MIT License**, which includes a strong disclaimer of warranty and liability. It's designed to fetch webpages, save them locally, and respect specified depth limits. It avoids fetching duplicate URLs and restricts its crawling to internal links only.
 
-Note: Be careful with high maxDepth values; large websites can use a lot of disk space.
+Note: Be careful with high max depth values; large websites can use a lot of disk space.
 
 ---
 
@@ -40,9 +40,9 @@ Example:
 ```bash
 ./crawler https://engineering.ucsc.edu/ crawler_dir 3
 ```
-To remove compiled files:
 
 ## Cleanup
+To remove compiled files:
 ```bash
 make clean
 ```
